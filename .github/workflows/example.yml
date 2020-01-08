@@ -7,7 +7,7 @@ jobs:
 
     steps:
     - name: Mask fruit
-      uses: sethvargo/hello-actions@latest
+      uses: sethvargo/go-hello-githubactions@latest
       with:
         fruit: banana
 
