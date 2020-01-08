@@ -2,10 +2,10 @@
 FROM golang:1.13
 
 # Copy all the files from the host into the container
+WORKDIR /src
 COPY . .
 
 # Enable Go modules
-WORKDIR /src
 ENV GO111MODULE=on
 
 # Compile the action
