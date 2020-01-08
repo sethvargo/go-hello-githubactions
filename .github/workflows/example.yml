@@ -3,6 +3,8 @@ on: [push]
 
 jobs:
   my_job:
+    runs-on: ubuntu-latest
+
     steps:
     - name: Mask fruit
       uses: sethvargo/hello-actions@latest
