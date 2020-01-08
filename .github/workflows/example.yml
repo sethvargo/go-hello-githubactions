@@ -1,0 +1,13 @@
+name: Example
+on: [push]
+
+jobs:
+  my_job:
+    steps:
+    - name: Mask fruit
+      uses: sethvargo/hello-actions@latest
+      with:
+        fruit: banana
+
+    - name: Echo fruit
+      run: echo "apple, banana, and orange"

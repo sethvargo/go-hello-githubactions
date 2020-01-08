@@ -1,0 +1,9 @@
+name: My Action
+inputs:
+  secrets:
+    fruit: Name of fruit to mask
+    required: true
+
+runs:
+  using: docker
+  image: Dockerfile
