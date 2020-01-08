@@ -5,6 +5,7 @@ FROM golang:1.13
 COPY . .
 
 # Enable Go modules
+WORKDIR /src
 ENV GO111MODULE=on
 
 # Compile the action
